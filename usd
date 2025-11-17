@@ -1,0 +1,92 @@
+function App() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-800 via-slate-900 to-black text-white">
+      <div className="container mx-auto px-4 py-12">
+        <header className="text-center mb-16">
+          <h1 className="text-5xl md:text-7xl font-black tracking-wider mb-4" style={{ fontFamily: 'Impact, sans-serif' }}>
+            BÜYÜK BAL PORSUKLAR ÇETESİ ÇÖKERTİLDİ
+          </h1>
+          <div className="w-32 h-1 bg-red-600 mx-auto mt-6"></div>
+        </header>
+
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <div className="bg-slate-800/50 backdrop-blur rounded-lg p-8 border border-slate-700 hover:border-red-600 transition-all duration-300 shadow-xl">
+              <div className="aspect-square mb-6 overflow-hidden rounded-lg bg-slate-700">
+                <img
+                  src="https://www.dropbox.com/scl/fi/ersfb6yj8jize0phe6f37/WhatsApp-Image-2025-11-17-at-23.47.32.jpeg?rlkey=d3kku4q0hvwphi2x5xw91jsjc&st=nn4wz5xi&dl=1"
+                  alt="Yalçın Arslan"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h2 className="text-3xl font-bold mb-4 text-red-500">Yalçın Arslan</h2>
+              <div className="space-y-3 text-slate-300">
+                <p className="flex justify-between">
+                  <span className="font-semibold text-slate-400">Kod Adı:</span>
+                  <span className="text-red-400">Tarçın</span>
+                </p>
+                <p className="flex justify-between">
+                  <span className="font-semibold text-slate-400">Doğum Yılı:</span>
+                  <span>1986</span>
+                </p>
+                <p className="flex justify-between">
+                  <span className="font-semibold text-slate-400">Doğum Yeri:</span>
+                  <span>Erzurum</span>
+                </p>
+                <p className="flex justify-between">
+                  <span className="font-semibold text-slate-400">Özellik:</span>
+                  <span>Üçgen Kilo</span>
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-slate-800/50 backdrop-blur rounded-lg p-8 border border-slate-700 hover:border-red-600 transition-all duration-300 shadow-xl">
+              <div className="aspect-square mb-6 overflow-hidden rounded-lg bg-slate-700">
+                <img
+                  src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1"
+                  alt="Edip Görücü"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h2 className="text-3xl font-bold mb-4 text-red-500">Edip Görücü</h2>
+              <div className="space-y-3 text-slate-300">
+                <p className="flex justify-between">
+                  <span className="font-semibold text-slate-400">Kod Adı:</span>
+                  <span className="text-red-400">Sarıklı Edip</span>
+                </p>
+                <p className="flex justify-between">
+                  <span className="font-semibold text-slate-400">Doğum Yılı:</span>
+                  <span>1989</span>
+                </p>
+                <p className="flex justify-between">
+                  <span className="font-semibold text-slate-400">Doğum Yeri:</span>
+                  <span>Muş</span>
+                </p>
+                <p className="flex justify-between">
+                  <span className="font-semibold text-slate-400">Özellik:</span>
+                  <span>Kel ve Kısa Boylu</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12 space-y-4">
+            <p className="text-2xl font-bold text-red-500 italic">İŞTE O ANLAR</p>
+            <div className="mt-6">
+              <a
+                href="https://www.dropbox.com/scl/fi/zafd4utsekooe4rpzq2ay/WhatsApp-Video-2025-11-17-at-23.26.11.mov?rlkey=97qseh3r3mnx9y1hw2gqdeifo&st=yzt615fp&dl=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-3 bg-red-600 hover:bg-red-700 rounded-lg font-bold transition-all duration-300 transform hover:scale-105"
+              >
+                VİDEOYU İZLE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
